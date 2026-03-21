@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://armand-fleuriste.vercel.app/sitemap.xml
