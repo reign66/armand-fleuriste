@@ -7,31 +7,102 @@
     <meta name="robots" content="index, follow" />
     <meta name="language" content="fr" />
     <meta name="author" content="ARMAND. Artisan Fleuriste" />
-    <meta name="google-site-verification" content="googlec26cc7c36bbf5118" />
-    <title>ARMAND. Artisan Fleuriste — Saint Marceau, Orléans</title>
-    <meta name="description" content="ARMAND. Artisan Fleuriste à Orléans, quartier Saint Marceau. Bouquets, plantes, accessoires floraux. Commande en ligne, livraison Orléans et click & collect." />
-    <meta property="og:title" content="ARMAND. Artisan Fleuriste — Orléans" />
-    <meta property="og:description" content="Fleurs fraîches, plantes et créations florales artisanales. Quartier Saint Marceau, Orléans." />
+    <meta name="geo.region" content="FR-45" />
+    <meta name="geo.placename" content="Orléans" />
+
+    <!-- SEO Principal -->
+    <title>Fleuriste Orléans | ARMAND. Artisan Fleuriste — Saint Marceau</title>
+    <meta name="description" content="ARMAND. Artisan Fleuriste à Orléans (45), quartier Saint Marceau. Bouquets sur mesure, plantes d'intérieur et d'extérieur, créations artisanales. Commande en ligne, livraison Orléans et click & collect. ✓ Fleurs fraîches ✓ Artisans locaux" />
+    <meta name="keywords" content="fleuriste Orléans, bouquet Orléans, fleurs Saint Marceau, artisan fleuriste 45, livraison fleurs Orléans, bouquet mariage Orléans, plantes intérieur Orléans, click collect fleurs Orléans" />
+    <link rel="canonical" href="https://armand-fleuriste.vercel.app" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ARMAND. Artisan Fleuriste — Fleuriste à Orléans, Saint Marceau" />
+    <meta property="og:description" content="Bouquets sur mesure, plantes et créations florales artisanales. Commande en ligne, livraison sur Orléans. Artisans locaux sélectionnés." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://armand-fleuriste.vercel.app" />
-    <meta property="og:image" content="/images/hero.jpg" />
+    <meta property="og:image" content="https://armand-fleuriste.vercel.app/images/hero.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="ARMAND. Artisan Fleuriste" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ARMAND. Artisan Fleuriste — Orléans" />
+    <meta name="twitter:description" content="Fleurs fraîches, bouquets artisanaux et plantes. Livraison sur Orléans et click & collect." />
+    <meta name="twitter:image" content="https://armand-fleuriste.vercel.app/images/hero.jpg" />
+
+    <!-- Schema.org LocalBusiness + Florist -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Florist",
+      "@type": ["Florist", "LocalBusiness"],
       "name": "ARMAND. Artisan Fleuriste",
-      "description": "Artisan fleuriste au cœur du quartier Saint Marceau, Orléans. Fleurs fraîches, plantes et créations locales.",
+      "description": "Artisan fleuriste au cœur du quartier Saint Marceau, Orléans. Bouquets sur mesure, fleurs fraîches, plantes d'intérieur et d'extérieur. Artisans locaux : Miel 1991, Chloé Céramique, La Fabrique du Clos, Florence Gossec.",
       "url": "https://armand-fleuriste.vercel.app",
+      "logo": "https://armand-fleuriste.vercel.app/images/logo.png",
+      "image": "https://armand-fleuriste.vercel.app/images/hero.jpg",
+      "telephone": "",
+      "email": "",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Quartier Saint Marceau",
         "addressLocality": "Orléans",
         "postalCode": "45100",
+        "addressRegion": "Centre-Val de Loire",
         "addressCountry": "FR"
       },
-      "openingHours": "Tu-Sa 09:00-19:00",
-      "priceRange": "€€"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "47.9029",
+        "longitude": "1.9039"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "19:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "09:00", "closes": "13:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday"], "opens": "00:00", "closes": "00:00" }
+      ],
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Credit Card",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fleurs, bouquets et plantes",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Bouquet Le Coloré", "description": "Bouquet vibrant aux couleurs éclatantes, fleurs de saison" }, "price": "30.00", "priceCurrency": "EUR" },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Bouquet L'Intemporel", "description": "Bouquet classique fleurs blanches et crèmes" }, "price": "30.00", "priceCurrency": "EUR" },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "L'Orchidée", "description": "Orchidée Phalaenopsis en pot fleurie" }, "price": "42.00", "priceCurrency": "EUR" }
+        ]
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Orléans"
+      },
+      "sameAs": [
+        "https://www.instagram.com/armand.fleuriste"
+      ]
     }
     </script>
+
+    <!-- Schema BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://armand-fleuriste.vercel.app",
+      "name": "ARMAND. Artisan Fleuriste",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://armand-fleuriste.vercel.app/boutique",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Preconnect performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <div id="root"></div>
