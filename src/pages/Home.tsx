@@ -41,13 +41,10 @@ export default function Home() {
               L'ancienne boutique des<br />Tapissiers Drufin, réinventée.
             </h2>
             <p className="text-charcoal text-sm leading-relaxed mb-4">
-              Située dans le quartier horticole d'Orléans, l'institution orléanaise depuis 1960 a fait peau neuve pour accueillir une sélection de fleurs fraîches, de plantes d'intérieur et d'extérieur, de décoration et d'accessoires choisis avec soin.
-            </p>
-            <p className="text-charcoal text-sm leading-relaxed mb-4">
-              Que ce soit pour offrir ou s'offrir, notre sélection de végétaux et d'articles est renouvelée au fil des saisons pour vous proposer toujours plus de nouveautés. De quoi vous surprendre à chaque visite.
+              Située dans le quartier horticole d'Orléans, cette institution orléanaise, fondée en 1960, a fait peau neuve pour vous accueillir dans un univers dédié aux fleurs fraîches, aux plantes d'intérieur et d'extérieur, ainsi qu'à une sélection soignée de décorations et d'accessoires.
             </p>
             <p className="text-charcoal text-sm leading-relaxed mb-8">
-              Depuis le premier jour, nous avons à cœur de mettre à l'honneur artistes et artisans locaux : Miel 1991, Chloé Céramique, La Fabrique du Clos et Florence Gossec.
+              Depuis toujours, nous avons à cœur de mettre à l'honneur des artistes et artisans locaux, dont les créations uniques enrichissent notre univers : Miel 1991, Chloé Céramique, La Fabrique du Clos et Florence Gossec.
             </p>
             <Link to="/boutique" className="btn-outline">Explorer nos créations</Link>
           </div>
