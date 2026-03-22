@@ -11,10 +11,11 @@ import Checkout from './pages/Checkout'
 import Confirmation from './pages/Confirmation'
 import Contact from './pages/Contact'
 import MentionsLegales from './pages/MentionsLegales'
+import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
-  useEffect(() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }, [pathname])
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }) }, [pathname])
   return null
 }
 
@@ -32,6 +33,14 @@ export default function App() {
         <Route path="/confirmation" element={<Confirmation />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legales" element={<MentionsLegales />} />
+        <Route path="/politique-de-confidentialite" element={<PolitiqueConfidentialite />} />
+        <Route path="*" element={
+          <main className="pt-32 text-center min-h-screen bg-cream">
+            <p className="font-display text-5xl text-dark font-light mb-4">404</p>
+            <p className="text-charcoal text-sm mb-8">Page introuvable</p>
+            <a href="/" className="btn-primary">Retour à l'accueil</a>
+          </main>
+        } />
       </Routes>
       <Footer />
     </CartProvider>

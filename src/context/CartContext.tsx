@@ -7,9 +7,10 @@ export interface Product {
   image: string
   category: string
   description: string
+  tags?: string[]
 }
 
-export interface CartItem extends Product {
+interface CartItem extends Product {
   quantity: number
 }
 
@@ -37,14 +38,15 @@ export function CartProvider({ children }: { children: ReactNode }) {
   }
 
   const removeFromCart = (id: string) => setItems(prev => prev.filter(i => i.id !== id))
+
   const updateQuantity = (id: string, qty: number) => {
     if (qty <= 0) return removeFromCart(id)
     setItems(prev => prev.map(i => i.id === id ? { ...i, quantity: qty } : i))
   }
-  const clearCart = () => setItems([])
 
-  const total = items.reduce((sum, i) => sum + i.price * i.quantity, 0)
-  const count = items.reduce((sum, i) => sum + i.quantity, 0)
+  const clearCart = () => setItems([])
+  const total = items.reduce((acc, i) => acc + i.price * i.quantity, 0)
+  const count = items.reduce((acc, i) => acc + i.quantity, 0)
 
   return (
     <CartContext.Provider value={{ items, addToCart, removeFromCart, updateQuantity, clearCart, total, count }}>
