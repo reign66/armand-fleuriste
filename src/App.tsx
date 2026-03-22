@@ -12,6 +12,7 @@ import Confirmation from './pages/Confirmation'
 import Contact from './pages/Contact'
 import MentionsLegales from './pages/MentionsLegales'
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite'
+import Histoire from './pages/Histoire'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legales" element={<MentionsLegales />} />
         <Route path="/politique-de-confidentialite" element={<PolitiqueConfidentialite />} />
+        <Route path="/histoire" element={<Histoire />} />
         <Route path="*" element={
           <main className="pt-32 text-center min-h-screen bg-cream">
             <p className="font-display text-5xl text-dark font-light mb-4">404</p>

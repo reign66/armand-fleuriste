@@ -28,6 +28,7 @@ export default function Footer() {
             {[
               { to: '/', l: 'Accueil' },
               { to: '/boutique', l: 'La Boutique' },
+              { to: '/histoire', l: 'Notre Histoire' },
               { to: '/contact', l: 'Contact' },
               { to: '/mentions-legales', l: 'Mentions légales' },
               { to: '/politique-de-confidentialite', l: 'Politique de confidentialité' },
