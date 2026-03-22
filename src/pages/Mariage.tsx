@@ -10,7 +10,7 @@ export default function Mariage() {
 
   const photos = [
     '/images/mariage-1.jpg',
-    '/images/mariage-2.png',
+    '/images/mariage-2.jpg',
     '/images/mariage-3.jpg',
     '/images/mariage-4.jpg',
     '/images/mariage-5.jpg',

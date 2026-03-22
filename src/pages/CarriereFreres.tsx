@@ -32,7 +32,7 @@ export default function CarriereFreres() {
             <Link to="/contact" className="btn-primary">Nous contacter</Link>
           </div>
           <div>
-            <img src="/images/carriere-produit.png" alt="Produits Carrière Frères bougies diffuseurs Orléans" className="w-full object-cover" />
+            <img src="/images/carriere-produit.jpg" alt="Produits Carrière Frères bougies diffuseurs Orléans" className="w-full object-cover" />
           </div>
         </div>
       </section>

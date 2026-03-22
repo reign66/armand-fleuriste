@@ -36,7 +36,7 @@ export default function Histoire() {
           </div>
           <div>
             <img
-              src="/images/histoire-2.png"
+              src="/images/histoire-2.jpg"
               alt="Armand — histoire du fleuriste d'Orléans"
               className="w-full max-w-xs mx-auto object-cover"
             />
@@ -48,12 +48,12 @@ export default function Histoire() {
       <section className="bg-cream-dark">
         <div className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-8 items-center">
           <img
-            src="/images/histoire-1.png"
+            src="/images/histoire-1.jpg"
             alt="La boutique Armand Fleuriste Orléans"
             className="w-full object-cover rounded-sm"
           />
           <img
-            src="/images/histoire-3.png"
+            src="/images/histoire-3.jpg"
             alt="Artisan fleuriste Orléans Saint Marceau"
             className="w-full object-cover rounded-sm"
           />

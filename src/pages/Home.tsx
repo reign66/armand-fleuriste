@@ -52,8 +52,8 @@ export default function Home() {
             <Link to="/boutique" className="btn-outline">Explorer nos créations</Link>
           </div>
           <div className="grid grid-cols-2 gap-3">
-            <img src="/images/section-1.png" alt="Boutique ARMAND. Artisan Fleuriste Orléans Saint Marceau" className="w-full aspect-[3/4] object-cover" />
-            <img src="/images/section-2.png" alt="Fleurs fraîches artisan fleuriste Orléans" className="w-full aspect-[3/4] object-cover mt-8" />
+            <img src="/images/section-1.jpg" alt="Boutique ARMAND. Artisan Fleuriste Orléans Saint Marceau" className="w-full aspect-[3/4] object-cover" />
+            <img src="/images/section-2.jpg" alt="Fleurs fraîches artisan fleuriste Orléans" className="w-full aspect-[3/4] object-cover mt-8" />
           </div>
         </div>
       </section>
@@ -83,8 +83,8 @@ export default function Home() {
       <section className="py-24 bg-cream">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="grid grid-cols-2 gap-3">
-            <img src="/images/section-3.png" alt="Artisans locaux Orléans — ARMAND. Fleuriste" className="w-full aspect-[3/4] object-cover" />
-            <img src="/images/section-4.png" alt="Créations artisanales Orléans" className="w-full aspect-[3/4] object-cover mt-8" />
+            <img src="/images/section-3.jpg" alt="Artisans locaux Orléans — ARMAND. Fleuriste" className="w-full aspect-[3/4] object-cover" />
+            <img src="/images/section-4.jpg" alt="Créations artisanales Orléans" className="w-full aspect-[3/4] object-cover mt-8" />
           </div>
           <div>
             <p className="text-xs tracking-widest uppercase text-charcoal/60 mb-4">Savoir-faire local</p>

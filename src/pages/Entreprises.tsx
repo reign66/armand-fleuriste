@@ -5,22 +5,22 @@ const services = [
   {
     titre: 'Bouquets & Abonnement',
     texte: 'Vous avez votre restaurant, bar, cabinet, étude, bureau ? Vous avez envie d\'embellir chaque semaine votre desk, bureau, atelier, nous avons la solution. ARMAND. Artisan Fleuriste vous propose la livraison d\'un bouquet de fleurs fraîches et de saison dans son vase assorti sélectionné avec soin et en adéquation avec vos espaces. Il ne vous reste plus qu\'à choisir vos couleurs et styles et c\'est parti !',
-    image: '/images/entreprises-2.png',
+    image: '/images/entreprises-2.jpg',
   },
   {
     titre: 'Végétalisation',
     texte: 'Envie de plantes sur votre bureau, espace d\'accueil ou salle de réunion ? ARMAND. Artisan Fleuriste est à l\'écoute de vos projets sur la végétalisation de vos espaces avec des plantes adaptées à votre rythme de vie. Une très large gamme de contenants est disponible sur commande pour réaliser l\'installation de vos rêves. N\'attendez plus, contactez-nous dès maintenant pour un devis détaillé.',
-    image: '/images/entreprises-3.png',
+    image: '/images/entreprises-3.jpg',
   },
   {
     titre: 'Décor saisonnier',
     texte: 'Une envie de décor saisonnier, vitrine de Noël ou simplement agrémenter votre façade d\'un air printanier, ARMAND. Artisan Fleuriste vous propose des décors sur mesure, adaptés à vos entreprises. Végétaux naturels, stabilisés et/ou artificiels, en achat ou sous forme de location, nous avons forcément le décor adapté à vos besoins. Alors adressez-nous vos demandes dès maintenant.',
-    image: '/images/entreprises-1.png',
+    image: '/images/entreprises-1.jpg',
   },
   {
     titre: 'Livraison & Cadeaux',
     texte: 'Remerciez un client, un collaborateur, un partenaire… c\'est possible en un simple clic ! ARMAND. Artisan Fleuriste dispose d\'un service de livraison soigné et adapté aux produits en proposant plusieurs types de livraison. Commandez dès maintenant.',
-    image: '/images/boutique-1.png',
+    image: '/images/boutique-1.jpg',
   },
 ]
 
